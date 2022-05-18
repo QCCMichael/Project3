@@ -1,0 +1,55 @@
+:root{
+ --primary:#40c4ff;
+ --primaryDark:#0094cc;
+ --primaryLight:#82f7ff;
+}
+.name{
+  background-color: var(--primary);
+  font-family:fantasy;
+}
+.navbar{
+  background-color: var(--primaryDark);
+  opacity: 0.9;
+  padding-left:1em;
+}
+.subtitle{
+  font-family:fantasy;
+  text-align: center;
+}
+.introImage img{
+width: 200px;
+height: 200px;
+}
+.major, .department{
+text-align:center;
+display: block;
+}
+
+.animate{
+animation: slideLeftRight 2s forwards;
+animation-timing-function: ease-in;
+}
+
+@keyframes slideLeftRight{
+  from{transform:translateX(-100%);}
+  to{transform:translateX(0%);}
+}
+.animate2{
+animation: slideLeftRight 4s forwards;
+animation-timing-function: ease-in;
+}
+
+@keyframes slideLeftRight{
+  from{transform:translateX(-100%);}
+  to{transform:translateX(0%);}
+}
+.footer{
+background-color: var(--primaryDark);
+}
+
+.col-lg-3{
+border:solid red;
+}
+.social{
+  border:solid green;
+}
